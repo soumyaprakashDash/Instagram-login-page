@@ -1,0 +1,176 @@
+/* 1. Global Reset & Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #fafafa;
+    color: #262626;
+  }
+  
+  /* 2. Container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 935px; /* typical Instagram container width */
+    padding: 40px 20px;
+  }
+  
+  /* 3. Left Section (Phone Image) */
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 32px; /* spacing between phone image & login form */
+  }
+  
+  .left-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 4. Right Section (Login Form + Sign Up) */
+  .right-section {
+    width: 350px; /* typical Instagram form width */
+  }
+  
+  /* 5. Login Box */
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px 40px 20px;
+    margin-bottom: 10px;
+  }
+  
+  .instaTextlogo {
+    width: 175px;
+    margin-bottom: 30px;
+  }
+  
+  /* 6. Input Fields */
+  .login-box input {
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 9px 0 7px 8px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    outline: none;
+    border-radius: 3px;
+  }
+  
+  /* 7. Login Button */
+  .login-btn {
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* 8. Divider (OR) */
+  .divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0 18px;
+    text-align: center;
+    font-size: 13px;
+    color: #8e8e8e;
+    font-weight: 500;
+  }
+  
+  .divider p {
+    margin: 0 18px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+    border: none;
+  }
+  
+  /* 9. Login with Facebook */
+  .login-with-facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-with-facebook .fb-image {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  .login-with-facebook a {
+    color: #385185;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* 10. Forgot Password Link */
+  .login-box a {
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+  }
+  
+  /* 11. Sign Up Box */
+  .signup-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px 0;
+    margin-bottom: 10px;
+  }
+  
+  .signup-box p {
+    font-size: 14px;
+  }
+  
+  .signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 4px;
+  }
+  
+  /* 12. Download Section */
+  .download-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .download-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .app-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .app-buttons img {
+    height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
